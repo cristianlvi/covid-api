@@ -1,4 +1,4 @@
-package com.project.covid.application.informations.dtos.responses;
+package com.project.covid.infra.controllers.dtos.responses;
 
 import java.util.HashMap;
 
