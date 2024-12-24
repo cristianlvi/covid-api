@@ -1,10 +1,10 @@
-package com.project.covid.application.config;
+package com.project.covid.infra.config;
 
 import com.google.gson.Gson;
 import org.springframework.context.annotation.Bean;
-import org.springframework.stereotype.Component;
+import org.springframework.context.annotation.Configuration;
 
-@Component
+@Configuration
 public class GsonConfig {
 
     @Bean

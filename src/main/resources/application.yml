@@ -3,13 +3,11 @@ server:
 spring:
   application:
     name: covid
-
-#  TODO: colocar os valores em variaveis da aplicação!
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/planisa
-    username: postgres
-    password: postgres
+    url: ${DB_URL}
+    username: ${DB_NAME}
+    password: ${DB_PASSWORD}
     jpa:
       hibernate:
         ddl-auto: create
@@ -25,5 +23,5 @@ client:
     url: https://api.api-ninjas.com/v1/covid19
     token:
       header:
-        key: fN3J9qNcKgds/6cZAfp2lg==GnXLeJ4csLkVLs9G
+        key: ${TOKEN_NINJA}
 
