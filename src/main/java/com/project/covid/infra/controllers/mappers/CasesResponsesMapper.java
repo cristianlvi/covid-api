@@ -1,7 +1,7 @@
-package com.project.covid.infra.controllers.dtos;
+package com.project.covid.infra.controllers.mappers;
 
 import com.project.covid.domain.CountryDomain;
-import com.project.covid.infra.controllers.dtos.responses.CasesResponse;
+import com.project.covid.infra.controllers.mappers.responses.CasesResponse;
 import lombok.experimental.UtilityClass;
 
 @UtilityClass

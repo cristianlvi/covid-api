@@ -1,8 +1,8 @@
 package com.project.covid.infra.controllers.controllers;
 
 import com.project.covid.application.usecases.ICovidInformationUsecase;
-import com.project.covid.infra.controllers.dtos.requests.CountryRequest;
-import com.project.covid.infra.controllers.dtos.responses.CasesResponse;
+import com.project.covid.infra.controllers.mappers.requests.CountryRequest;
+import com.project.covid.infra.controllers.mappers.responses.CasesResponse;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

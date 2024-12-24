@@ -3,8 +3,6 @@ server:
 spring:
   application:
     name: covid
-
-#  TODO: colocar os valores em variaveis da aplicação!
   datasource:
     driver-class-name: org.postgresql.Driver
     url: ${DB_URL}

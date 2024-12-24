@@ -1,4 +1,4 @@
-package com.project.covid.config;
+package com.project.covid.infra.config;
 
 import com.project.covid.application.gateways.ApiNinjaClient;
 import com.project.covid.application.usecases.ICovidInformationUsecase;

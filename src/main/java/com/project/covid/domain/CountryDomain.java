@@ -1,6 +1,6 @@
 package com.project.covid.domain;
 
-import com.project.covid.infra.controllers.dtos.responses.InfoResponse;
+import com.project.covid.infra.controllers.mappers.responses.InfoResponse;
 
 import java.util.HashMap;
 

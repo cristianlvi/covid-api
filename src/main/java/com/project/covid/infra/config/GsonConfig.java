@@ -1,4 +1,4 @@
-package com.project.covid.config;
+package com.project.covid.infra.config;
 
 import com.google.gson.Gson;
 import org.springframework.context.annotation.Bean;

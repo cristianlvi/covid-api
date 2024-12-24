@@ -1,7 +1,7 @@
 package com.project.covid.application.usecases;
 
-import com.project.covid.infra.controllers.dtos.requests.CountryRequest;
-import com.project.covid.infra.controllers.dtos.responses.CasesResponse;
+import com.project.covid.infra.controllers.mappers.requests.CountryRequest;
+import com.project.covid.infra.controllers.mappers.responses.CasesResponse;
 
 public interface ICovidInformationUsecase {
 

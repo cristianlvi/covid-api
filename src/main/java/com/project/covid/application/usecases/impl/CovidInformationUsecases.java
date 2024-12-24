@@ -3,9 +3,9 @@ package com.project.covid.application.usecases.impl;
 import com.project.covid.application.gateways.ApiNinjaClient;
 import com.project.covid.application.usecases.ICovidInformationUsecase;
 import com.project.covid.domain.CountryDomain;
-import com.project.covid.infra.controllers.dtos.CasesResponsesMapper;
-import com.project.covid.infra.controllers.dtos.requests.CountryRequest;
-import com.project.covid.infra.controllers.dtos.responses.CasesResponse;
+import com.project.covid.infra.controllers.mappers.CasesResponsesMapper;
+import com.project.covid.infra.controllers.mappers.requests.CountryRequest;
+import com.project.covid.infra.controllers.mappers.responses.CasesResponse;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

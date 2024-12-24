@@ -1,4 +1,4 @@
-package com.project.covid.infra.controllers.dtos.requests;
+package com.project.covid.infra.controllers.mappers.requests;
 
 public record CountryRequest(
         String country,
